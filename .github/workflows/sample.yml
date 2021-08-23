@@ -36,4 +36,4 @@ jobs:
       - name: makeTimeStamp
         run: |
           mkdir C:\Temp
-          echo %date% %time% >> log.txt
+          echo %date% %time% >> C:\temp\log.txt
