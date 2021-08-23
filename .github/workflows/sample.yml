@@ -35,4 +35,4 @@ jobs:
 
       - name: makeTimeStamp
         run: |
-          echo %date% %time% >> C:\temp\log.txt
+          Get-Date >> C:\temp\log.txt
