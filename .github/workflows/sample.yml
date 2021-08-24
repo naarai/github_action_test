@@ -35,4 +35,5 @@ jobs:
 
       - name: makeTimeStamp
         run: |
-          Get-Date >> C:\temp\log.txt
+          Get-Date >> C:\temp\log.txt ,
+          C:\temp\test.cmd
